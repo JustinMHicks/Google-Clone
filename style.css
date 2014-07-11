@@ -1,0 +1,133 @@
+    /* Here my CSS code begins*/
+
+*{
+    font-family:Arial;
+    font-size:15px;
+    color:black;
+    text-decoration:none;
+
+}
+
+*:focus{
+    outline:none;
+}
+
+form{
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right:auto;
+    text-align: center;
+}
+
+a:hover {
+    text-decoration:underline;
+}
+
+#optionsgrid img{
+    height:30px;
+    width: 30px;
+    margin-bottom: -8px;
+    opacity:0.55;
+}
+
+#optionsgrid img:hover{
+    opacity:1.0;
+}
+
+#toprightnav {
+    text-align:right;
+    padding-top: 5px;
+    padding-bottom:5px;
+}
+
+#toprightnav a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+#signin{
+    padding-top:4px;
+    padding-bottom:5px;
+    padding-left: 9px;
+    padding-right: 9px;
+    border-radius: 3px;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+    color:white;
+}
+
+.logo {
+    position:relative;
+}
+
+.logo img{
+    height:100px;
+    width:260px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+#searchbar{
+    border:1px solid grey;
+    display:block;
+    margin-left: 35%;
+    margin-right:35%;
+    padding:2px;
+}
+
+#searchbar:hover{
+    -webkit-box-shadow: 2px 0px 7px 1px rgba(50, 71, 255, 0.75) ;
+}
+    
+#buttons{
+    margin-top:10px;
+}
+
+#buttons input{
+    font-size: 12px;
+    font-weight: bolder;
+    border-radius: 4px;
+    background-color: -webkit-linear-gradient:(top,#f5f5f5,#f1f1f1);
+    opacity:.65;
+    margin:7px;
+    padding:10px;
+}
+
+#buttons input:hover{
+    opacity:.90;
+}
+
+.footer{
+    border-top: 1px solid gray;
+    padding-top:8px;
+    padding-bottom:5px;
+    background:#f2f2f2;
+    text-align:left;
+    position:absolute;
+    bottom:0;
+    width:99%;
+    height:30px;
+}
+
+.footer a{
+    padding-left:15px;
+    padding-right:15px;
+}
+
+#footerleft{
+    width:50%;
+    display:inline-block;
+}
+
+#footerright{
+    width:50%;
+    display:inline-block;
+    float:right;
+}
+
+#footerright a{
+    text-align:right;
+}
+
+
+
